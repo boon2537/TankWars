@@ -1,0 +1,6 @@
+<material id="enemy">
+  <shader id="diffuse" />
+  <texture bind="0" src="Data/Images/lava_d.jpg" />
+  <texture bind="1" src="Data/Images/lava_n.jpg" />
+  <spec amount="0.0" power="1"/>
+</material>

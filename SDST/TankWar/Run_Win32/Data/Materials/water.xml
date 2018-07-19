@@ -1,0 +1,6 @@
+<material id="water">
+  <shader id="rolling" />
+  <texture bind="0" src="Data/Images/water_d.jpg" />
+  <texture bind="1" src="Data/Images/water_n.jpg" />
+  <spec amount="0.0" power="1"/>
+</material>

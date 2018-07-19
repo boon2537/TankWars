@@ -1,0 +1,6 @@
+<material id="grass">
+  <shader id="lit" />
+  <texture bind="0" src="Data/Images/grass_green_d.jpg" />
+  <texture bind="1" src="Data/Images/grass_green_n.jpg" />
+  <spec amount="0.0" power="1"/>
+</material>

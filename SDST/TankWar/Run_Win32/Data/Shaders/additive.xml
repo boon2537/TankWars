@@ -1,0 +1,13 @@
+<shader name="additive" sort="0" queue="alpha" cull="back" fill="solid" frontface="ccw">
+  <program id="additive" define="">
+    <!-- if no id, you can define the program here manually -->
+    <!-- id and defines are mutually exclusive -->
+    <vertex file="Data/Shaders/additive.vs"/>
+    <fragment file="Data/Shaders/additive.fs"/>
+  </program>
+  <blend>
+    <color op="add" src="one" dest="one"/>
+    <alpha op="add" src="one" dest="zero"/>
+  </blend>
+  <depth write="false" test="less"/>
+</shader>

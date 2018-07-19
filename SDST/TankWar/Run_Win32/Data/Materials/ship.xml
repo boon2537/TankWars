@@ -1,0 +1,7 @@
+<material id="ship">
+  <shader id="lit" />
+  <texture bind="0" src="Data/Models/scifi_fighter_mk6/SciFi_Fighter-MK6-diffuse.jpg" />
+  <texture bind="1" src="Data/Models/scifi_fighter_mk6/ship_normal.png" />
+  <spec amount="0.7" power="1.5"/>
+  <color bind="TINT" value="255, 255, 255, 255"/>
+</material>

@@ -1,0 +1,18 @@
+<shader name="diffuse" sort="0" cull="none" fill="solid" frontface="ccw">
+  <program id="diffuse" define="">
+    <!-- if no id, you can define the program here manually -->
+    <!-- id and defines are mutually exclusive -->
+    <vertex file="Data/Shaders/diffuse.vs"/>
+    <fragment file="Data/Shaders/diffuse.fs"/>
+  </program>
+  <blend>
+    <color op="add" src="src_alpha" dest="inv_src_alpha"/>
+    <alpha op="add" src="one" dest="zero"/>
+  </blend>
+  <depth write="true" test="less"/>
+
+  <texture bind="0" src="white"/>
+  <texture bind="1" src="flat"/>
+  <spec amount="0.7" power="1.5"/>
+  <color bind="TINT" value="255, 255, 255, 255"/>
+</shader>

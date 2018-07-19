@@ -1,0 +1,26 @@
+<Audio>
+  <Clip name="bgm" path="Data/Audio/world.mp3" />
+  <Clip name="tankShoot00" path="Data/Audio/Gun_Pistol_Shot01.wav" />
+  <Clip name="tankShoot01" path="Data/Audio/Gun_Pistol_Shot02.wav" />
+  <Clip name="tankShoot02" path="Data/Audio/EnemyHit.wav" />
+  <Clip name="enemyDie00" path="Data/Audio/Explo_Medium_01.wav" />
+  <Clip name="enemyDie01" path="Data/Audio/Explo_Medium_02.wav" />
+  <Clip name="enemyDie02" path="Data/Audio/Explo_Medium_03.wav" />
+
+  <Group name="enemyDie">
+    <Clip name="enemyDie00" weight="0.6" />
+    <Clip name="enemyDie01" weight="0.2" />
+    <Clip name="enemyDie02" weight="0.2" />
+  </Group>
+
+  <Group name="tankShoot">
+    <Clip name="tankShoot00" weight="0.6" />
+    <Clip name="tankShoot01" weight="0.2" />
+    <Clip name="tankShoot02" weight="0.2" />
+  </Group>
+
+  <Group name="buildingDie">
+    <Clip name="enemyDie00" />
+  </Group> 
+  
+</Audio>

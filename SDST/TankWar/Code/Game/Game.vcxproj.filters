@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{b5acd2b7-f046-4109-825f-f4e3340c8956}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingCamera.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainChunk.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FlockBehavior.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingCamera.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainChunk.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FlockBehavior.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\GameConfig.xml">
+      <Filter>General</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Audio\audioData.xml">
+      <Filter>Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
